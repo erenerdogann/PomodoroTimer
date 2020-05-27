@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    color: #f4eeff;
+    margin: 18% auto;
+    background-color: #3a3535;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+hr{
+    background-color: #3a3535;
+}
+
+
+.widthReduce{
+    max-width: 13%;
+}
+
+.mainHeader{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.mainCounter{
+    display: none;
+    margin: 3%;
+    padding: 5% 5% 2% 5%;
+    border: solid;
+}
+
+.whatIs{
+    display: none;
+    margin: 3%;
+    font-size: large;
+}
+
+#status{
+    margin-top: 2%;
+}

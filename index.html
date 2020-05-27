@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://image.flaticon.com/icons/svg/877/877814.svg" alt="tomato" class="widthReduce">
+                <h1 class="mainHeader">Welcome To Pomodoro</h1>
+                <div class="mainCounter">
+                    <h1 id="timer">Time Left: -</h1>
+                    <p id="status">1'st Study</p>
+                </div>
+                <button type="button" class="btn btn-outline-light btn-lg btn-block" id="startButton">Start The Session</button>
+                <hr>
+                <button type="button" class="btn btn-outline-light btn-lg" id="whatIsButton">What Is Pomodoro?</button>
+                <p class="whatIs">The Pomodoro Technique is a time management method developed
+                     by Francesco Cirillo in the late 1980s. The technique uses a timer to
+                      break down work into intervals, traditionally 25 minutes in length,
+                       separated by short breaks. Each interval is known as a pomodoro, 
+                       from the Italian word for 'tomato', after the tomato-shaped kitchen timer 
+                       that Cirillo used as a university student. <br> <br>
+                    <strong>To start press "Start The Session" button <br> Every session 
+                    has 4 work and 3 break period. After the session complete you can take
+                a large break and start again if you desire.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
